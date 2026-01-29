@@ -1,3 +1,7 @@
+'''Temperature Conversion Program
+By Grace LeVoir
+1 - 29 - 26'''
+
 # Look at line 17 first.
 # This program introduces a couple new concepts,
 # we'll be covering those in the weeks ahead
@@ -10,6 +14,8 @@ def temp_conversion(celsius):
     fahrenheit = 0.0
     ######################
     # WRITE YOUR CODE HERE
+
+    fahrenheit = celsius * 9 / 5 + 32
     ######################    
 
 
